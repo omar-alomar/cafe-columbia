@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  background-color: #5f2f14;
+  height: 10vh;
+  width: 100%;
+  flex-direction: row;
+}
+
+.navbar__logo {
+  height: 100%;
+  width: auto;
+  padding: 5px;
+}
+
+.navbar__logo-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding-left: 3px;
+}
+
+.navbar__logo-text-wrapper h4 {
+  color: #e7d8c9;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar__logo-text-wrapper h4 {
+    width: 0px;
+  }
+}

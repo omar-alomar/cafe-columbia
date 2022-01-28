@@ -1,0 +1,36 @@
+@import "contact.css";
+@import "footer.css";
+@import "gallery.css";
+@import "home.css";
+@import "menu.css";
+@import "navbar.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 30px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #e7d8c9;
+}
