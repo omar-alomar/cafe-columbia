@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border-bottom: 2px solid #550707;
 }
 
 @media screen and (min-width: 700px) {
