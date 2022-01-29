@@ -1,5 +1,8 @@
 import React from 'react';
 import Hero from "../Hero"
+import Crepe from "./../../assets/img/crepe.jpeg"
+import CoffeeIcon from '@mui/icons-material/Coffee';
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -30,6 +33,10 @@ export default function Home() {
           </div></a>
         <div className="home__text-container--marketing">
           <h2>Simply the best.</h2>
+          <img src={Crepe} />
+          <Link to={'/menu'}>
+            <CoffeeIcon style={{color: "#550707", marginTop: "10%"}}/>
+          </Link>
         </div>
       </div>
     </>

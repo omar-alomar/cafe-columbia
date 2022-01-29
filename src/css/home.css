@@ -4,7 +4,7 @@
 }
 
 .home__text-container--hours {
-  margin: 5%;
+  margin: 6%;
   margin-bottom: 3%;
   display: flex;
   flex-direction: column;
@@ -57,4 +57,15 @@
   align-items: center;
   text-align: center;
   color: #550707;
+}
+
+.home__text-container--marketing h2 {
+  margin-bottom: 2%;
+}
+
+.home__text-container--marketing img {
+  width: 60%;
+  height: auto;
+  border: 2px solid #550707;
+  margin: 3%;
 }
