@@ -1,16 +1,27 @@
 .slider {
   position: relative;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 
+@media screen and (min-width: 700px) {
+  .slider {
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .slider {
+    height: 70vh;
+  }
+}
+
 .slider__img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
 
 .slider__arrow {
@@ -24,11 +35,11 @@
 }
 
 .slider__arrow--right {
-  right: 32px;
+  right: 1%;
 }
 
 .slider__arrow--left {
-  left: 32px;
+  left: 1%;
 }
 
 .slider__arrow:hover {
