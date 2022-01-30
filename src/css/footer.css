@@ -1,5 +1,33 @@
 .footer {
   width: 100%;
   background-color: #5f2f14;
-  height: 100px;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.footer__container {
+  /* padding: 2%; */
+  font-size: 0.6rem;
+  color: #e7d8c9;
+  text-align: center;
+  overflow: hidden;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer__logo {
+  height: 9vh;
+}
+
+.footer__container--call {
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__container--call {
+    width: 0px;
+  }
 }

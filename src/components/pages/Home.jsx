@@ -35,7 +35,7 @@ export default function Home() {
           <h2>Simply the best.</h2>
           <img src={Crepe} />
           <Link to={'/menu'}>
-            <CoffeeIcon style={{color: "#550707", marginTop: "10%"}}/>
+            <CoffeeIcon style={{color: "#550707", marginTop: "25px"}}/>
           </Link>
         </div>
       </div>
