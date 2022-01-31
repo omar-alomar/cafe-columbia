@@ -12,7 +12,9 @@
 
 .gallery__img {
   margin: 5%;
-  width: 90%;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 70%;
   height: auto;
   border: 1px solid #550707;
 }
