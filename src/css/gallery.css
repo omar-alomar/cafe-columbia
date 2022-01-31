@@ -1,0 +1,18 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery h1 {
+  color: #550707;
+  margin-top: 3%;
+}
+
+.gallery__img {
+  margin: 5%;
+  width: 90%;
+  height: auto;
+  border: 1px solid #550707;
+}
