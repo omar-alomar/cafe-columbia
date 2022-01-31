@@ -3,9 +3,18 @@
   width: 100%;
   height: auto;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 4%;
+}
+
+.menu h1 {
+  color: #550707;
 }
 
 .menu__img {
-  width: 100%;
+  width: 88%;
   height: auto;
+  margin: 6%;
 }
