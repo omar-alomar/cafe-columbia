@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from "../assets/img/logoCropped.png";
 import PhoneIcon from '@mui/icons-material/Phone';
-import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
+import EmailIcon from '@mui/icons-material/Email';
+
 
 
 export default function Footer() {
@@ -22,8 +23,8 @@ export default function Footer() {
           <img src={Logo} className="footer__logo" />
         </div>
 
-        <a className="footer__container footer__container--call" href="tel:+17039758717">
-          <PhoneAndroidIcon /><p>703-975-8717</p>
+        <a className="footer__container footer__container--call" href="mailto:cafecolumbiallc@gmail.com">
+          <EmailIcon /><p>cafecolumbiallc@gmail.com</p>
         </a>
 
         <div className="footer__container footer__container--rights">

@@ -5,6 +5,7 @@
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .navbar__logo-wrapper {
@@ -41,6 +42,7 @@
   font-size: 0.5rem;
   height: 65px;
   padding-top: 22px;
+  overflow: hidden;
 }
 
 .navbar__menu-item:hover {

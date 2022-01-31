@@ -18,6 +18,9 @@
   justify-content: center;
   width: 100%;
 }
+.footer__container p {
+  font-size: 0.1rem;
+}
 
 .footer__logo {
   height: 9vh;
