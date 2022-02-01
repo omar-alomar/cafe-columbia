@@ -36,3 +36,8 @@ a:link {
 body {
   background-color: #e7d8c9;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.5rem;
+  }
+}

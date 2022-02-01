@@ -15,7 +15,7 @@ export default function Contact() {
             <label for="name">Name:</label><input type="text" name="name" /> 
           </span>
           <span className="contact__form-section">
-            <label for="email">Email:</label><input type="email" name="email" /> 
+            <label for="email">Email:</label><input type="email" name="email" />
             <label for="tel">Phone:</label><input type="tel" name="tel" /> 
           </span>
           <label for="text">Message:</label><textarea />

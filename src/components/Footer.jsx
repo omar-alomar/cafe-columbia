@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assets/img/logoCropped.png";
+import Logo from "../assets/img/logo.svg";
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -19,12 +19,12 @@ export default function Footer() {
           <PhoneIcon /><p>410-600-3788</p>
         </a>
 
-        <div className="footer__container footer__container">
+        <div className="footer__container footer__container--logo">
           <img src={Logo} className="footer__logo" />
         </div>
 
-        <a className="footer__container footer__container--call" href="mailto:cafecolumbiallc@gmail.com">
-          <EmailIcon /><p>cafecolumbiallc@gmail.com</p>
+        <a className="footer__container footer__container--mail" href="mailto:cafecolumbiallc@gmail.com">
+          <EmailIcon /><p>cafecolumbiallc<br/>@gmail.com</p>
         </a>
 
         <div className="footer__container footer__container--rights">

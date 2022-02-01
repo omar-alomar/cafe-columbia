@@ -19,7 +19,7 @@
   width: 100%;
 }
 .footer__container p {
-  font-size: 0.4rem;
+  font-size: 0.5rem;
 }
 
 .footer__logo {
@@ -27,11 +27,19 @@
 }
 
 .footer__container--call {
-  width: 300px;
+  width: 900px;
+}
+
+.footer__container--mail {
+  width: 900px;
 }
 
 @media only screen and (max-width: 600px) {
   .footer__container--call {
     width: 0px;
+  }
+  .footer__container--mail {
+    width: 0px;
+    color: red;
   }
 }
