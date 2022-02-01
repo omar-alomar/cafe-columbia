@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cafe-columbia/static/css/main.9753b46d.css",
+    "main.js": "/cafe-columbia/static/js/main.22e37101.js",
+    "static/media/pic2.JPG": "/cafe-columbia/static/media/pic2.9cdc00b8f4220d3fe74c.JPG",
+    "static/media/pic1.JPG": "/cafe-columbia/static/media/pic1.fb0b0e262741ac70b11c.JPG",
+    "static/media/pic0.JPG": "/cafe-columbia/static/media/pic0.61601b2abced832e171c.JPG",
+    "static/media/pic3.JPG": "/cafe-columbia/static/media/pic3.0e60422955cca304f5a7.JPG",
+    "static/media/pic5.JPG": "/cafe-columbia/static/media/pic5.878d1147229efb2c9873.JPG",
+    "static/media/pic4.JPG": "/cafe-columbia/static/media/pic4.584ee466b1ba6e5dca0c.JPG",
+    "static/media/menuCut1.png": "/cafe-columbia/static/media/menuCut1.0bfc7742d9143a8593f5.png",
+    "static/media/menuCut2.png": "/cafe-columbia/static/media/menuCut2.0d43ea6a49b27a28436b.png",
+    "static/media/menuColored.png": "/cafe-columbia/static/media/menuColored.579e88158facb05d0868.png",
+    "static/media/crepe.jpeg": "/cafe-columbia/static/media/crepe.cf3d2edefeacd64183e3.jpeg",
+    "static/media/logo.svg": "/cafe-columbia/static/media/logo.dc18a20ff092cdfbed7d76d10acbedca.svg",
+    "index.html": "/cafe-columbia/index.html",
+    "main.9753b46d.css.map": "/cafe-columbia/static/css/main.9753b46d.css.map",
+    "main.22e37101.js.map": "/cafe-columbia/static/js/main.22e37101.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9753b46d.css",
+    "static/js/main.22e37101.js"
+  ]
+}
